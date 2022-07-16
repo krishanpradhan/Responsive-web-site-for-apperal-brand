@@ -1,0 +1,821 @@
+<!doctypehtml>
+
+<head>
+<title>css(responsive)</title>
+<link href="../../execution/css3/style.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+
+<link href="../../raw/png/logo.png" rel="icon" size="32*32" type="text/image">
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+
+
+<body>
+
+
+<section id="home">
+ <div class="nav">
+ <nav>
+          <ul>
+                <div class="toggle"><i class="fa fa-bars"></i></div>
+               <li><a class="active" href="#"> HOME</a></li>
+               <li><a href="#mens"> MEN</a></li>
+               <li><a href="#womens"> WOMEN</a></li>
+               <li><a href="#"> COLLECTION <i class="fa fa-caret-down"></i></a>
+                    <ul>
+                      <li><a href="#freshcollection">New Arrivals</a></li>
+                      <li><a href="#ssummer">Spring Summer Collection</a><li>
+                   </ul>
+
+              </li>
+               <li class="brandname"><img class="brandlogo" src="../../raw/png/logo.png" title="Knitted"> KNITTED</li>
+                  <form><li><a><input type ="text" id ="search1" placeholder="Search.....">
+                  <button type ="submit" id ="navbutton">Search</button>
+                  </input></li></a></form>
+                <li class="icon"> <a i class="fa fa-address-card" title="Contact Us" href="#contactus"></a> </li>
+               <li class="icon"> <a id ="t" i class="fa fa-user" title="User Id" href="#"></a> </li>
+               <li class="icon"><a i class="fa fa-shopping-bag"  title="Whistlist"href="#"></i></a></li>
+               
+               <li class="icon"><input type="text" id="search" placeholder="Search"><a i class="fa fa-search" href="#" title="Search"></i></a> </input></li>
+              </span>
+           
+ </nav>
+
+</div>
+</section>
+<script>
+$("document").ready(function(){
+   $(".toggle").click(function(){
+      $("li a").toggle("slow");
+   });
+   $("#t").click(function(){
+      $(".logincontainer").fadeToggle("slow");
+   }); 
+   $("#a").click(function(){
+      $("#b").slideToggle("slow");
+   });  
+});
+</script>
+
+
+
+
+<div class="logincontainer">
+   <center>
+         <h2>LOG IN</h2>
+          <form>
+              <input id="forminput" type="text" placeholder="Username" required></input><br>
+              <input id="forminput" type="text" placeholder="Password" required></input><br>
+              <button id="formbtn" type="submit">Submit</button>
+          </form>
+   </center>
+</div>
+
+<div class="container">    
+
+         <img class ="w1" src="../../raw/jpeg/w2.jpg" alt="w1" title="Fresh Collection">  
+           
+                        <p class="w1para">CHECK OUT OUR <br> FRESH COLLECTION</p>
+           <a id ="btn" href="#freshcollection"><button type="button" id ="button">Shop Now</buttton></a>     
+</div>
+
+<br>
+<div class="slider1">
+   <figure>
+          <div class="offer1">
+          <p id="offerpara1">Shop for Women <br>Use code: -30%off*<br><a id="offerlink1" href="#">Click here to know more.<span id="astric">*subject to change</span></a></p></div> 
+                                      
+          <div class="offer1"><p id="offerpara2">Shop for Man<br>Use code: -30%off* <br><a id="offerlink2" href="#">Click here to know more.<span id="astric">*subject to change</span></a></p></div>
+
+          <div class="offer1"><p id="offerpara1">Shop for Women<br>Use code:- 30%off*<br><a id="offerlink1" href="#">Click here to know more.<span id="astric">*subject to change</span></a></p></div>
+
+          <div class="offer1"><p id="offerpara2">Shop for Man<br>Use code:- 30%off*<br><a id="offerlink2" href="#">Click here to know more.<span id="astric">*subject to change</span></a></p>
+</div>
+
+   </figure>
+</div>
+<br>
+<div class="slider">
+   <figure>
+            <img src="../../raw/jpeg/s1.jpg" alt="s1" title="For Women">          
+            <img src="../../raw/jpeg/s2.jpg" alt="s2" title="For Men">
+            <img src="../../raw/jpeg/s3.jpg" alt="s3" title="For Women">
+            <img src="../../raw/jpeg/s4.jpg" alt="s4" title="For Men">
+   </figure>
+</div>
+<br>
+<div><a id="arrow" href="#" class="fa fa-arrow-up"></a></div>
+<div class="loginpage"> 
+        <div class="loginbox"><img class ="l1" src="../../raw/jpeg/l1.jpg" alt="s4" title="Men">     
+       </div>
+         <div class="landingpage">
+                               
+                    <p id="loginpara"><br><br>SIGN UP AND <br> JOIN OUR COMMUNITY<br>AND GET EXTRA<br>15% OFF*</a><br> ON YOUR FIRST ORDER</p><br>
+                     <button id="loginbutton" type="button"><a id="buttonlogin" href="#home">SIGN UP</a></button>
+                      <br><a id ="loginpara1" href="#">Forgot Password ?<br>Or Create New Account
+                     </a>
+                     <br><p id ="astric">*subject to change.</p>
+        </div>
+
+         <div class="loginbox"><img class ="l1" src="../../raw/jpeg/l2.jpg" alt="s4" title="Women"></div>
+</div>
+<br>
+<section id="ssummer">
+<div class="nav2">
+   <ul>
+          <li><a>SPRING SUMMER COLLECTION</a></li>         
+   </ul>
+</div>
+
+
+<div class="slider2">
+   <figure>
+            <img src="../../raw/jpeg/a.jpg" alt="s1" title="Shorts For Women">          
+            <img src="../../raw/jpeg/b.jpg" alt="s2" title="Jeans For Women">
+            <img src="../../raw/jpeg/c.jpg" alt="s3" title="Dress For Women">
+            <img src="../../raw/jpeg/d.jpg" alt="s4" title="T-Shirts For Men">
+            <img src="../../raw/jpeg/e.jpg" alt="s4" title="Shirts For Men">
+            <img src="../../raw/jpeg/f.jpg" alt="s4" title="Shorts For Men">
+            <img src="../../raw/jpeg/h.jpg" alt="s4" title="Full-Sleves T-Shirt For Men">
+            <img src="../../raw/jpeg/g.jpg" alt="s4" title="Suit For Men">
+           
+   </figure>
+</div>
+</sectionm>
+<br><br>
+
+<div class="testimonial"> 
+    
+       <div class="box"><center><img class="img100" src="../../raw/jpeg/c1.jpg" alt="s4" title="Happy Customer"><br><br>
+       <p>Jessica<br>(Fashion Designer)</p></center>
+       <br>
+       <p id="tpara">" Love the brand collection. Must try. "</p>
+      </div>   
+
+      <div class="box"><center><img class="img100" src="../../raw/jpeg/c2.jpg" alt="c2" title="Happy Customer"><br><br>
+       <p>Lisa<br>(Entrepreneur)</p></center>
+       <br>
+       <p id="tpara"><q>As an Entrepreneur, I suggest to buy with this brand. The collection are fabulous </q></p>
+      </div>   
+
+      <div class="box"><center><img class="img100" src="../../raw/jpeg/c3.jpg" alt="c3" title="Happy Customer"><br><br>
+       <p>Rebeca<br>(Assitant Manager)</p></center>
+       <br>
+       <p id="tpara"><q>I never seen these kind of fitting. I wear all day and its soo comfort to wear love it.</q></p>
+      </div>   
+      
+      <div class="box"><center><img class="img100" src="../../raw/jpeg/c4.jpg" alt="c4" title="Happy Customer"><br><br>
+       <p>Halley<br>(actress)</p></center>
+       <br>
+       <p id="tpara"><q>This brand has seperate fan base, worth to buy.</q></p>
+      </div>      
+</div>
+
+
+<br><p id="headingmen"> SHOP FOR MEN</p><br>
+<section id="mens">
+<div class="men">
+  <img id="menimg" src="../../raw/jpeg/men.jpg">
+  <ul class="menscollection"> 
+           <a href="#jeanscollection"><span id="try">Jeans</span><img id="collectionimg" src="../../raw/jpeg/jeans.jpg"></a><br>
+           <a href="#tshirtcollection"><span id="try">T-Shirt</span><img id="collectionimg" src="../../raw/jpeg/tshirt.jpg"></a><br>
+           <a href="#shirtcollection"><span id="try">Shirt</span><img id="collectionimg" src="../../raw/jpeg/shirt.jpg"></a><br>
+  </ul>
+</div>
+</section>
+
+                        
+         
+<section id="jeanscollection">
+                                       <center><br><h1>Men's Jeans</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/jeans1.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted skinny fit jeans (black)<span id="price">&#8377; 3299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">30</input>
+       <input id="sizes" type ="radio" name="size">32</input>
+       <input id="sizes" type ="radio" name="size">34</input>
+       <input id="sizes" type ="radio" name="size">36</input>
+       <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/jeans2.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted slim fit jeans (deep blue)<span id="price">&#8377; 3499</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+             <input id="sizes" type ="radio" name="size">30</input>
+             <input id="sizes" type ="radio" name="size">32</input>
+             <input id="sizes" type ="radio" name="size">34</input>
+             <input id="sizes" type ="radio" name="size">36</input>
+             <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/jeans3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted tapered fit jeans (blue)<span id="price">&#8377; 2999</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">30</input>
+       <input id="sizes" type ="radio" name="size">32</input>
+       <input id="sizes" type ="radio" name="size">34</input>
+       <input id="sizes" type ="radio" name="size">36</input>
+       <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointed"> <img id="jeansimg" src="../../raw/jpeg/jeans4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted straight fit jeans (light blue)<span id="price">&#8377; 3299</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">30</input>
+               <input id="sizes" type ="radio" name="size">32</input>
+               <input id="sizes" type ="radio" name="size">34</input>
+               <input id="sizes" type ="radio" name="size">36</input>
+               <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>           
+</div>
+</section>
+
+                                          
+<section id="tshirtcollection">
+                                <center><br><h1> Men's T-Shirt</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/tshirt1.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted printed t-shirt (white)<span id="price">&#8377; 799</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">S</input>
+       <input id="sizes" type ="radio" name="size">M</input>
+       <input id="sizes" type ="radio" name="size">L</input>
+       <input id="sizes" type ="radio" name="size">XL</input>
+       <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/tshirt2.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted core t-shirt (white)<span id="price">&#8377; 699</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+             <input id="sizes" type ="radio" name="size">S</input>
+             <input id="sizes" type ="radio" name="size">M</input>
+             <input id="sizes" type ="radio" name="size">L</input>
+             <input id="sizes" type ="radio" name="size">XL</input>
+             <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/tshirt3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted foil print t-shirt (grey)<span id="price">&#8377; 1299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">S</input>
+       <input id="sizes" type ="radio" name="size">M</input>
+       <input id="sizes" type ="radio" name="size">L</input>
+       <input id="sizes" type ="radio" name="size">XL</input>
+       <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointed"> <img id="jeansimg" src="../../raw/jpeg/tshirt4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted printed t-shirt (black)<span id="price">&#8377; 1299</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>           
+</div>
+</section>
+
+<section id="shirtcollection">
+                                <center><br><h1>Men's Shirt</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/shirt1.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted semi formal shirt (light blue)<span id="price">&#8377; 2499</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/shirt2.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted stripe shirt (black)<span id="price">&#8377; 2999</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/shirt3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted check shirt (green)<span id="price">&#8377; 3299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointed"> <img id="jeansimg" src="../../raw/jpeg/shirt4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted printed shirt (white)<span id="price">&#8377; 3199</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>           
+</div>
+</section>
+
+
+
+<br><br>
+<section id="checkpointed">
+<div class="containerbuy">
+    <div class="box1">
+         <img id="merchandise" src="../../raw/jpeg/shirt4.jpg" alt="c4">
+    </div>
+    <div class="box2">
+     <h1>Merchandise Name</h1><br>
+     <p>Price: &#8377; 0,000<span></span>
+     <br><br>
+      <form>
+       <lable for="size" required>Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input><br><br>
+                <lable for="size">Quantity:</lable><br>
+               <select id="slt">
+                      <option> 01 </option>
+                      <option> 02 </option>
+                      <option> 03 </option>
+                      <option> 04 </option>
+               </select>
+<br>
+              
+               <br> <lable for="size">Payment:</lable><br>
+               <select id="slt">
+                      <option> Select Payment </option>
+                      <option> Axis Bank </option>
+                      <option> SBI </option>
+                      <option> Centra Bank </option>
+                      <option> UBI </option>
+               </select>
+                
+                <br><br> 
+               <button type="submit" id="btn">Add to Cart</button>
+      </form><br><br>
+        <details>
+              <summary>Details</summary>
+                 About the merchandice.
+                   
+        </details><br>
+        <details>
+              <summary>material and care</summary>
+                 <li>55% Cotton, 45% Linen</li><br>
+                 <li>Wash with similar colours</li>
+                
+        </details>
+     </p>
+    </div>
+</div>
+</section>
+
+
+
+
+<br><p id="headingmen"> SHOP FOR WOMEN</p><br>
+<section id="womens">
+<div class="men">
+  <img id="womenimg" src="../../raw/jpeg/women1.jpg">
+  <ul class="womenscollection"> 
+         <a href="#wjeanscollection"><span id="try1">Jeans</span><img id="collectionimg" src="../../raw/jpeg/jeans.jpg"></a><br>
+          <a href="#wtshirtcollection"><span id="try1">T-Shirt</span><img id="collectionimg" src="../../raw/jpeg/tshirt.jpg"></a><br>
+         <a href="#wshirtcollection"> <span id="try1">Shirt</span><img id="collectionimg" src="../../raw/jpeg/shirt.jpg"></a><br>
+  </ul>
+</div>
+</section>
+
+
+                        
+         
+<section id="wjeanscollection">
+                                       <center><br><h1>Women's Jeans</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wjeans1.jpg" alt="wjeans" title=""></a>
+       <p id="parajeans">Kintted skinny fit jeans (light blue)<span id="price">&#8377; 3299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">30</input>
+       <input id="sizes" type ="radio" name="size">32</input>
+       <input id="sizes" type ="radio" name="size">34</input>
+       <input id="sizes" type ="radio" name="size">36</input>
+       <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wjeans2.jpg" alt="wjeans2" title=""></a>
+      
+      <p id="parajeans">Kintted slim fit jeans (deep blue)<span id="price">&#8377; 3499</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+             <input id="sizes" type ="radio" name="size">30</input>
+             <input id="sizes" type ="radio" name="size">32</input>
+             <input id="sizes" type ="radio" name="size">34</input>
+             <input id="sizes" type ="radio" name="size">36</input>
+             <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wjeans3.jpg" alt="wjeans3" title=""></a>
+      <p id="parajeans">Kintted tapered fit jeans (blue)<span id="price">&#8377; 2999</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">30</input>
+       <input id="sizes" type ="radio" name="size">32</input>
+       <input id="sizes" type ="radio" name="size">34</input>
+       <input id="sizes" type ="radio" name="size">36</input>
+       <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointedwomen"> <img id="jeansimg" src="../../raw/jpeg/wjeans4.jpg" alt="wjeans4" title=""></a>
+          <p id="parajeans">Kintted Straight fit jeans (black)<span id="price">&#8377; 3299</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">30</input>
+               <input id="sizes" type ="radio" name="size">32</input>
+               <input id="sizes" type ="radio" name="size">34</input>
+               <input id="sizes" type ="radio" name="size">36</input>
+               <input id="sizes" type ="radio" name="size">38</input>
+      </form>
+    </div>           
+</div>
+</section>
+
+                                          
+<section id="wtshirtcollection">
+                                <center><br><h1> Women's T-Shirt</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="checkpoint.html"><img id="jeansimg" src="../../raw/jpeg/wtshirt1.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted core t-shirt (red)<span id="price">&#8377; 799</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">S</input>
+       <input id="sizes" type ="radio" name="size">M</input>
+       <input id="sizes" type ="radio" name="size">L</input>
+       <input id="sizes" type ="radio" name="size">XL</input>
+       <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wtshirt2.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted core t-shirt (black)<span id="price">&#8377; 699</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+             <input id="sizes" type ="radio" name="size">S</input>
+             <input id="sizes" type ="radio" name="size">M</input>
+             <input id="sizes" type ="radio" name="size">L</input>
+             <input id="sizes" type ="radio" name="size">XL</input>
+             <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wtshirt3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted core t-shirt (peach)<span id="price">&#8377; 1299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+       <input id="sizes" type ="radio" name="size">S</input>
+       <input id="sizes" type ="radio" name="size">M</input>
+       <input id="sizes" type ="radio" name="size">L</input>
+       <input id="sizes" type ="radio" name="size">XL</input>
+       <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointedwomen"> <img id="jeansimg" src="../../raw/jpeg/wtshirt4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted v neck t-shirt (maroon)<span id="price">&#8377; 1299</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+      </form>
+    </div>           
+</div>
+</section>
+
+<section id="wshirtcollection">
+                                <center><br><h1>Women's Shirt</h1><br></center>
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wshirt.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted check shirt (red)<span id="price">&#8377; 2499</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wshirt2.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted check shirt (black)<span id="price">&#8377; 2999</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wshirt3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted solid shirt (black)<span id="price">&#8377; 3299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointedwomen"> <img id="jeansimg" src="../../raw/jpeg/wshirt4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted shirt (light pink)<span id="price">&#8377; 3199</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>           
+</div>
+</section>
+
+<br><br>
+<section id="checkpointedwomen">
+<div class="containerbuy">
+    <div class="box1">
+         <img id="merchandise" src="../../raw/jpeg/wshirt2.jpg" alt="c4">
+    </div>
+    <div class="box2">
+     <h1>Merchandise Name</h1><br>
+     <p>Price: &#8377; 0,000<span></span>
+     <br><br>
+      <form>
+       <lable for="size" required>Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input><br><br>
+                <lable for="size">Quantity:</lable><br>
+               <select id="slt">
+                      <option> 01 </option>
+                      <option> 02 </option>
+                      <option> 03 </option>
+                      <option> 04 </option>
+               </select>
+<br>
+              
+               <br> <lable for="size">Payment:</lable><br>
+               <select id="slt">
+                      <option> Select Payment </option>
+                      <option> Axis Bank </option>
+                      <option> SBI </option>
+                      <option> Centra Bank </option>
+                      <option> UBI </option>
+               </select>
+                
+                <br><br> 
+               <button type="submit" id="btn">Add to Cart</button>
+      </form><br><br>
+        <details>
+              <summary>Details</summary>
+                 About the merchandice.
+                   
+        </details><br>
+        <details>
+              <summary>material and care</summary>
+                 <li>55% Cotton, 45% Linen</li><br>
+                 <li>Wash with similar colours</li><br>
+                 <li>Wash and dry inside out</li><br>
+                 <li>Iron on reverse side </li><br>
+        </details>
+     </p>
+    </div>
+</div>
+</section>
+
+
+
+                                      <center><br><h1>New Arrival</h1><br></center>
+
+<section id="freshcollection">
+          
+<div class="jeanscontainer">
+    <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/fresh4.jpg" alt="jeans" title=""></a>
+       <p id="parajeans">Kintted cotton chinos (khaki)<span id="price">&#8377; 2999</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointed"><img id="jeansimg" src="../../raw/jpeg/fresh3.jpg" alt="jeans" title=""></a>
+      
+      <p id="parajeans">Kintted formal shirt (white)<span id="price">&#8377; 2999</span></p><br>
+        <form id="size">
+           <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+      
+    </div>   
+     <div class="jeansbox">           
+      <a href="#checkpointedwomen"><img id="jeansimg" src="../../raw/jpeg/wjeans3.jpg" alt="jeans" title=""></a>
+      <p id="parajeans">Kintted fade jeans (blue)<span id="price">&#8377; 3299</span></p><br>
+       <form id="size">
+       <lable id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>   
+     <div class="jeansbox">           
+       <a href="#checkpointedwomen"> <img id="jeansimg" src="../../raw/jpeg/wtshirt4.jpg" alt="jeans" title=""></a>
+          <p id="parajeans">Kintted v neck t-tshirt (black)<span id="price">&#8377; 1499</span></p><br>
+           <form id="size">
+             <lable  id="parajeans" for="size">Size:</lable>
+               <input id="sizes" type ="radio" name="size">S</input>
+               <input id="sizes" type ="radio" name="size">M</input>
+               <input id="sizes" type ="radio" name="size">L</input>
+               <input id="sizes" type ="radio" name="size">XL</input>
+               <input id="sizes" type ="radio" name="size">XXL</input>
+
+      </form>
+    </div>           
+</div>
+</section>
+<section id="contactus">
+<br>      <center>
+                                           <h1 id ="name">CONTACT US</h1><br><br>
+<div class="form">
+   <form>
+         <select id="slt">
+               <option> SELECT TOPIC</option>
+               <option> MY ORDER </option>
+               <option> MY DELIVERY</option>
+               <option> RETURN </option>
+               <option> SUGGESTION </option>
+               <option> ANY OTHER </option>
+         </select><br><br>
+          <input type="text" class="form"  placeholder="ORDER NUMBER" required></input><br><br>
+         <textarea class="form" rows="10" cols="76" placeholder=" write a comment..." required></textarea><br><br>
+         <input type="text" class="form"  placeholder="E-MAIL" required></input><br><br>
+         <input type="text" class="form"  placeholder="FIRST NAME" required></input><br><br>
+         <input type="text" class="form"  placeholder="LAST NAME" required></input><br><br>
+         <input type="text" class="form"  placeholder="PHONE NUMBER"  required></input><br><br>
+          
+         <button id="submit" type="submit">SUBMIT</button><br><br>
+                 
+   </form>
+</div>
+               <br><br>
+                                         </center>
+</section>
+
+
+
+
+<div class="footer">
+     <div class="fabout">
+              <ul><center><span class="toggle"><i class="fa fa-caret-down"></i></span></center>
+                  <li class="fname"><h3>ABOUT</h3></li>
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Brand</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Investor Relation</a></li>            
+                  <li><a href="#">Licencsing</a></li>      
+              </ul>                
+     </div>
+     <div class="fabout">
+            <ul>
+                   <li class="fname"><h3>SHOP</h3></li>
+                   <li><a href="#">Payment Method</a></li>
+                   <li><a href="#">Stores</a></li>
+                   <li><a href="#">Delivery</a></li>
+                   <li><a href="#">Size Guiding</a></li>            
+                   <li><a href="#">Return</a></li>      
+              </ul>                     
+     </div>
+     <div class="fabout">
+              <ul>
+                  <li class="fname"><h3>HELP</h3></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                  <li><a href="#">Sector B, East Kolkata Township, Kolkata, West Bengal -700 039</a></li>
+                  <li><a href="#"><i class="fa fa-phone"></i> (+91) 983-067-3478</a></li>
+                  <li><a href="mailto:sampradhan077@gmail.com"><i class="fa fa-envelope"></i> sampradhan077@gmail.com</a></li>
+                  <li><a href="#">www.knitted.com</a></li>
+             
+              </ul>                
+     </div>
+      <div class="ffollow">
+             <h3>FOLLOW US</h3>
+             <br><a id="size" href="#"class ="fa fa-facebook-square"title="Facebook"></a>  
+             <a id="size" href="#"class ="fa fa-instagram"title="Instagram"></a>
+             <a id="size" href="#"class ="fa fa-youtube"title="Youtube"></a>
+             <a id="size" href="#"class ="fa fa-twitter"title="Twitter"></a>  
+             <br><br><p id ="s"><b>WE ACCEPT</b></p><br>
+             <a href="#" class ="fa fa-cc-visa" title="Visa"></a>
+             <a href="#" class ="fa fa-cc-mastercard" title="Master Card"></a>
+             <a href="#" class ="fa fa-cc-amex" title="American Express"></a>
+             <a href="#" class ="fa fa-paypal" title="Pay Pal"></a>
+     </div>
+     <div class="ffollow">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.7920097567333!2d88.39278579620232!3d22.514688088094175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027152923008ab%3A0x5f0d5c436934edae!2sRajdanga%20%2F%20Rene%20Tower!5e0!3m2!1sen!2sin!4v1654090195801!5m2!1sen!2sin" width="auto" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+</div>
+
+
+
+
+
+<div class="copy">
+&copy; 2022 www.knitted.com All Right Reserve. <a id="pp" href="#">Privacy Policy.</a>
+</div>
+</body>
+
+</html>
